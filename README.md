@@ -18,21 +18,6 @@ This project classifies red wine samples as either **Good** (quality > 6.5) or *
 
 **Quality Distribution:** 5→681, 6→638, 7→199, 4→53, 8→18, 3→10
 
-## 🗂️ Project Structure
-
-```
-Red-Wine-Quality-Classifier/
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py    # loading, splitting, scaling
-│   ├── model.py          # RF, SVC, tuned SVC
-│   └── evaluate.py       # metrics, confusion matrix
-├── Red_Wine_Quality_RF_and_SVC.ipynb
-├── main.py
-├── requirements.txt
-└── README.md
-```
-
 ## 📈 Exploratory Data Analysis
 
 Key feature trends observed vs wine quality:
@@ -106,10 +91,6 @@ jupyter notebook Red_Wine_Quality_RF_and_SVC.ipynb
 ```
 pandas, numpy, matplotlib, seaborn, scikit-learn
 ```
-
-## 👩‍💻 Author
-
-**Sandunika Thanthriwatta** — [@SandunikaThanthriwatta](https://github.com/SandunikaThanthriwatta)
 
 ---
 *P. Cortez et al. Modeling wine preferences by data mining from physicochemical properties. DSS, 2009.*
